@@ -66,4 +66,5 @@ if (file.exists("UCI HAR Dataset")) {
   remove(s_test)
   remove(activities)
   remove(features)
+  write.table(dataag,file="DataAG.txt",row.names=FALSE)
 }
